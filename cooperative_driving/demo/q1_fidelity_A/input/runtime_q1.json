@@ -1,0 +1,129 @@
+{
+  "schema": "v2v-prefill-fidelity-v1",
+  "plan_id": "4c03c0189e47f934ec5d18b6567658953821fe5fb56dab2c4635d372d5c6d41c",
+  "task": "q1",
+  "runtime": {
+    "model_suffix": "v2vllmq1_10ep_both_shallow_f1",
+    "checkpoint": 1387,
+    "question_file": "/home/xiumei/FedAttn_V2X/V2V-GoT-main/DMSTrack/V2V4Real/official_models/no_fusion_keep_all/npy/co_llm/v2v4real_3d_grounding_qa_dataset_v2vllmq1.json",
+    "num_input_frames": 1,
+    "batch_size": 1,
+    "task": "q1",
+    "project_root": "/home/xiumei/FedAttn_V2X/V2V-GoT-main",
+    "llava_root": "/home/xiumei/FedAttn_V2X/V2V-GoT-main/LLaVA",
+    "model_path": "/home/xiumei/FedAttn_V2X/V2V-GoT-main/LLaVA/checkpoints/llava-v1.5-7b-task-lora/llava-v1.5-7b-task-lora_v2v4real_3d_grounding_v2vllmq1_10ep_both_shallow_f1/checkpoint-1387",
+    "model_base": "liuhaotian/llava-v1.5-7b",
+    "conv_mode": "vicuna_v1",
+    "feature_source": "no_fusion_keep_all",
+    "dtype": "float16",
+    "device": "cuda:0",
+    "num_layers": 32,
+    "model_config": {
+      "mm_scene_projector_input_size": 3072,
+      "scene_level_only": false,
+      "object_level_only": false,
+      "scene_feature_mode": "shallow",
+      "object_feature_mode": "shallow",
+      "num_input_frames": 1,
+      "ego_only": false,
+      "feature_source": "no_fusion_keep_all",
+      "dataset_source": "v2v4real",
+      "num_latency_frames": 0,
+      "positional_error_std": 0.0
+    },
+    "source_script_sha256": "2bfab844efed2f844479f9218a078cdea4595775f50319970d004d3cc025e4d8",
+    "wrapper_script_sha256": "532f1be617c38bdafe29359a172660a8e8d8cf183998ec4c9dce39ebcb386edd",
+    "forward_method": "original_multimodal_generate_max_new_tokens_1_prefill_only",
+    "torch_version": "2.1.2+cu121",
+    "transformers_version": "4.37.2",
+    "effective_parameter_dtypes": [
+      "float16"
+    ],
+    "task_checkpoint_identity": {
+      "requested": "/home/xiumei/FedAttn_V2X/V2V-GoT-main/LLaVA/checkpoints/llava-v1.5-7b-task-lora/llava-v1.5-7b-task-lora_v2v4real_3d_grounding_v2vllmq1_10ep_both_shallow_f1/checkpoint-1387",
+      "local_directory": true,
+      "files": {
+        "adapter_config.json": {
+          "bytes": 729,
+          "mtime_ns": 1768248446000000000,
+          "sha256": "727c53d9e6178045017d2a1144521d9d6004c995615fe182c8e81692eeebb200"
+        },
+        "adapter_model.safetensors": {
+          "bytes": 639692768,
+          "mtime_ns": 1768248428000000000
+        },
+        "config.json": {
+          "bytes": 1558,
+          "mtime_ns": 1768248421000000000,
+          "sha256": "8736bcda3810f5c352dc7ee6a7ed15ae8cd4a267075816a802c7364cdf66991a"
+        },
+        "non_lora_trainables.bin": {
+          "bytes": 100699536,
+          "mtime_ns": 1768248446000000000
+        },
+        "special_tokens_map.json": {
+          "bytes": 438,
+          "mtime_ns": 1768248428000000000,
+          "sha256": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7"
+        },
+        "tokenizer.model": {
+          "bytes": 499723,
+          "mtime_ns": 1768248446000000000,
+          "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+        },
+        "tokenizer_config.json": {
+          "bytes": 964,
+          "mtime_ns": 1768248428000000000,
+          "sha256": "aac5eb0917505d23bdfcd63f0623aa39308b0f9ccc8766520015a41ad25f1ede"
+        },
+        "trainer_state.json": {
+          "bytes": 222666,
+          "mtime_ns": 1768248446000000000,
+          "sha256": "d4abd18ead118a74efce5f42773a05e03beb2c9fbacf4958e9d079e1d3c2f8b1"
+        },
+        "training_args.bin": {
+          "bytes": 7160,
+          "mtime_ns": 1768248445000000000,
+          "sha256": "3202afd1368d275f1d918b62704747fd7ac3e283e7140ad7570b92010b25d72e"
+        },
+        "zero_to_fp32.py": {
+          "bytes": 24177,
+          "mtime_ns": 1768248446000000000,
+          "sha256": "68f965505cd086b7582e9821f8a6bc9b5b80c43450671c1139f734d1c7678a2c"
+        }
+      },
+      "large_weight_identity": "size_and_mtime_ns; files_at_most_16MiB_are_sha256_hashed"
+    },
+    "base_model_identity": {
+      "requested": "liuhaotian/llava-v1.5-7b",
+      "local_directory": false
+    },
+    "base_model_commit_hash": null,
+    "llava_source_sha256": {
+      "llava/constants.py": "05caa532060f61b30cada5ba23da0f4bf640c898298913f768653583482e5901",
+      "llava/conversation.py": "5afd26fa231082cb6fdc100c3887d663f72d8c99a93dcdd285dac303ca72e45c",
+      "llava/mm_utils.py": "c89d6e24ac1aca2343ba809a775e2d6d2c69f168e6754d667b42d9a0a9ad0465",
+      "llava/model/__init__.py": "ee39b249ed24855167f1d22459f04a8c13aa06d06f3778573175013d5b5fecd5",
+      "llava/model/apply_delta.py": "8d7b7c98993dc7e31cbcb34a149c72cac5bcf3535faf6e91d7263b5673e4f970",
+      "llava/model/builder.py": "b98a8354a36b06d0e429e03e59decd926bad48ecd710b7d5a0bea4188c84263a",
+      "llava/model/builder_backup.py": "6dd06864aa8b62d2432ebd5b1e22f2cbd536de3b66a238446caeb77c22b33af0",
+      "llava/model/builder_backup_1216.py": "c4c6843485ab4c227e6cb6d760d16b8340dda6cd3603a38ed7ba8dc985989485",
+      "llava/model/consolidate.py": "d7d8c75a1173ab3b616a84093c98e7d1e04783de7489644a34816c3e7d88df9f",
+      "llava/model/language_model/llava_llama.py": "5c1e0e552c295baa086e5d9ecb2bfff8a9264275d687d905763e4ab314715400",
+      "llava/model/language_model/llava_mistral.py": "2fbd8141fee2cf00f9a3e5485d18b88199c5221a3f4952acdad65c8ebe0fe913",
+      "llava/model/language_model/llava_mpt.py": "1a4a8e900501299dcae2839053c45a6cfe3ab601189010952f4bba5b85c5e3e8",
+      "llava/model/llava_arch.py": "df700668ce7a69a7363abb42648309e29c2be7d5eb037f9d1aac374f6855b0db",
+      "llava/model/make_delta.py": "5f27baaec21ec464ca2b84bc0e7b422c5d4d157d7592a1d5bf0692027fa67adb",
+      "llava/model/multimodal_encoder/builder.py": "c0f1b6e8e0267324a22ae3eb610488eea9124d3c8608a42b59b6afcbbd52df6b",
+      "llava/model/multimodal_encoder/clip_encoder.py": "47a3759c277d34447535dc3b950f7025ef20828b082254a959d2db276091601f",
+      "llava/model/multimodal_projector/builder.py": "2a0a7d353628c2881b4928a54be68d7617a1cf3fb006eab88986073db05e9363",
+      "llava/model/utils.py": "a6beb41c51d7a124547188d10bf0b7f4ea613b1ecccf165601b96de525664241",
+      "llava/utils.py": "b51a3ef996597b7d8b7a54e280529985a7154992bd863209bdbc761b8b397102"
+    },
+    "attention_implementation_source": {
+      "path": "/home/xiumei/miniconda3/envs/llava_v2v/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py",
+      "sha256": "d9d63a953aa55f6580ca133f118f6e6d464598cfdc521161ff10520d02bb2450"
+    }
+  },
+  "run_id": "536168daa073c2c3275b1a527ada6832b4aa161e93b79451521f339b7aac3400"
+}

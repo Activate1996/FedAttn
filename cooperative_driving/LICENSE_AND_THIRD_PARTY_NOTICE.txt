@@ -1,0 +1,7 @@
+This software package is supplied for editorial assessment and peer review of the manuscript “Federated attention for collective intelligence in large language models”. No broader public licence is granted for the authors’ additions at this review stage.
+
+Third-party components remain subject to their original licence terms. The LLaVA and V2V4Real licence files retained in this package apply only to those corresponding upstream components. DMSTrack and any other upstream components remain subject to their original terms and notices.
+
+AB3DMOT and Xinshuo_PyToolbox are not redistributed in this package. They must be obtained separately from their original repositories and remain subject to their original licence terms. Installation instructions are provided in README.md and DMSTrack/AB3DMOT_SETUP.md.
+
+The full V2V4Real dataset, V2V-LLM benchmark assets, task checkpoints, and LLaVA-v1.5-7B base-model weights are not redistributed and remain subject to their original access and licence terms. The compact demo contains saved predictions, measurements and reference evaluation outputs only. It does not include model weights or processed LiDAR features.

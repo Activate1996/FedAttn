@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "dataset_size": 1319,
+  "dataset_questions_sha256": "65ae5a5b62654eafdde08f5e2adbf6d2cec66052a60b196aa354d9ea8fe4b9bd",
+  "sample_indices": [
+    0,
+    1
+  ],
+  "sample_questions": [
+    {
+      "sample_index": 0,
+      "question_sha256": "8fe80ff6511f912e726440b9af2eeb0f36fc9aa069438db8af63d2e29b594d7f",
+      "answer_sha256": "98bcfd36cb29ac917208b4057c38a39b965846219f7e84284c5245f3b2a09201"
+    },
+    {
+      "sample_index": 1,
+      "question_sha256": "f6929c316cd0f049ffd5a67473fc4e14ebc469c0f2f453dd06c09074052b5de7",
+      "answer_sha256": "fbc337c967af2cf37befb6cd7b036d26afba8887709296e1e83ad3f2db1633d7"
+    }
+  ],
+  "sample_set_sha256": "e149062e2fa278a4f8835efecbcb6ccc05aca67c027c1bb0d46f4cbfb0903b0a",
+  "n_expected_samples": 2
+}

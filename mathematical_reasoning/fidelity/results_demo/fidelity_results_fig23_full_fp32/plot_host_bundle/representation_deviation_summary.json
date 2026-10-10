@@ -1,0 +1,1745 @@
+{
+  "schema_version": 2,
+  "measurement": "final Transformer block, before final RMSNorm, all valid input tokens",
+  "sample_set_sha256": "e149062e2fa278a4f8835efecbcb6ccc05aca67c027c1bb0d46f4cbfb0903b0a",
+  "sample_indices": [
+    0,
+    1
+  ],
+  "n_expected_samples": 2,
+  "statistics_note": "Arithmetic mean across the selected questions. std uses ddof=1; sem=std/sqrt(n). These are descriptive, not design-based confidence intervals. Incomplete points have null statistics.",
+  "panels": {
+    "2": {
+      "Qwen2.5-0.5B": {
+        "even": {
+          "x_axis": "num_local_forwards",
+          "x_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "point_keys": [
+            "fig2|Qwen2.5-0.5B|even|H=1",
+            "fig2|Qwen2.5-0.5B|even|H=2",
+            "fig2|Qwen2.5-0.5B|even|H=3",
+            "fig2|Qwen2.5-0.5B|even|H=4",
+            "fig2|Qwen2.5-0.5B|even|H=5",
+            "fig2|Qwen2.5-0.5B|even|H=6",
+            "fig2|Qwen2.5-0.5B|even|H=7",
+            "fig2|Qwen2.5-0.5B|even|H=8",
+            "fig2|Qwen2.5-0.5B|even|H=9",
+            "fig2|Qwen2.5-0.5B|even|H=10",
+            "fig2|Qwen2.5-0.5B|even|H=11",
+            "fig2|Qwen2.5-0.5B|even|H=12",
+            "fig2|Qwen2.5-0.5B|even|H=13",
+            "fig2|Qwen2.5-0.5B|even|H=14",
+            "fig2|Qwen2.5-0.5B|even|H=15",
+            "fig2|Qwen2.5-0.5B|even|H=16",
+            "fig2|Qwen2.5-0.5B|even|H=17",
+            "fig2|Qwen2.5-0.5B|even|H=18",
+            "fig2|Qwen2.5-0.5B|even|H=19",
+            "fig2|Qwen2.5-0.5B|even|H=20",
+            "fig2|Qwen2.5-0.5B|even|H=21",
+            "fig2|Qwen2.5-0.5B|even|H=22",
+            "fig2|Qwen2.5-0.5B|even|H=23",
+            "fig2|Qwen2.5-0.5B|even|H=24"
+          ],
+          "status": [
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete"
+          ],
+          "n": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "n_expected": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "absolute_frobenius": {
+            "mean": [
+              0.0,
+              1339.3339233398438,
+              1335.7637329101562,
+              1374.3370361328125,
+              1006.2128601074219,
+              1149.0145874023438,
+              1113.53857421875,
+              1117.8457641601562,
+              1126.3247680664062,
+              1123.587646484375,
+              1132.3700561523438,
+              1145.80224609375,
+              1145.5490112304688,
+              1136.6209716796875,
+              1140.218017578125,
+              1123.9393310546875,
+              1121.0238037109375,
+              1155.9605712890625,
+              1131.2271728515625,
+              1124.80419921875,
+              1121.033203125,
+              1136.0606079101562,
+              1139.908447265625,
+              1143.2862548828125
+            ],
+            "std": [
+              0.0,
+              77.03657346445779,
+              84.66162215054877,
+              121.70160513668496,
+              21.500249773589086,
+              86.65795584626196,
+              40.76308318058436,
+              51.37753972224585,
+              60.13092090878489,
+              44.33193535037672,
+              53.07884278098448,
+              65.99260479594275,
+              51.656860711493856,
+              53.241549846723814,
+              55.46092601345581,
+              47.58314189580793,
+              65.29758235916125,
+              61.18648839256544,
+              57.6497460521922,
+              58.57471629965253,
+              50.89666913167087,
+              53.060198363902416,
+              56.52728309045515,
+              55.92617327304999
+            ],
+            "sem": [
+              0.0,
+              54.47308349609374,
+              59.86480712890625,
+              86.0560302734375,
+              15.202972412109375,
+              61.27642822265624,
+              28.8238525390625,
+              36.32940673828125,
+              42.51898193359375,
+              31.347412109375,
+              37.53240966796875,
+              46.66381835937499,
+              36.52691650390625,
+              37.64746093749999,
+              39.216796875,
+              33.64636230468749,
+              46.17236328125,
+              43.26538085937499,
+              40.7645263671875,
+              41.4185791015625,
+              35.9893798828125,
+              37.51922607421875,
+              39.97082519531249,
+              39.5457763671875
+            ]
+          },
+          "relative_frobenius": {
+            "mean": [
+              0.0,
+              0.747094722150609,
+              0.7451255894516544,
+              0.7667416112254604,
+              0.5611723857479101,
+              0.6409912972642009,
+              0.6210771855109518,
+              0.6235093811871333,
+              0.628262660196208,
+              0.6266912045355437,
+              0.6316136581970035,
+              0.6391409424705232,
+              0.6389587952221485,
+              0.6339846305812895,
+              0.6359968471559418,
+              0.6268966030935339,
+              0.6253213483745377,
+              0.6447919736044371,
+              0.6309893843616678,
+              0.627410277114278,
+              0.6252854721179382,
+              0.6336716279333459,
+              0.6358272610662088,
+              0.6377091670844997
+            ],
+            "std": [
+              0.0,
+              0.05060736101527283,
+              0.05483905473302967,
+              0.07571453928741416,
+              0.017735459742785502,
+              0.05488588248142478,
+              0.02909018731254967,
+              0.03503389695619047,
+              0.03996360750449439,
+              0.031137729610549177,
+              0.03606556267373571,
+              0.04334357958369531,
+              0.035347857153880315,
+              0.03618057030242316,
+              0.03743873820339093,
+              0.032952761571781425,
+              0.04281450689675293,
+              0.0407214745339888,
+              0.03860798414116619,
+              0.039087112453989846,
+              0.034783942886122896,
+              0.03607624037145025,
+              0.03803162062428115,
+              0.03771570266957926
+            ],
+            "sem": [
+              0.0,
+              0.035784808151855134,
+              0.038777067475585514,
+              0.05353826416454582,
+              0.01254086385158465,
+              0.03881017969402339,
+              0.02056986871469074,
+              0.024772706109113026,
+              0.028258537867105582,
+              0.022017699758372478,
+              0.02550220393390695,
+              0.030648539044529743,
+              0.024994709493922185,
+              0.02558352660804003,
+              0.026473185662685583,
+              0.023301121166230118,
+              0.030274428159852203,
+              0.028794430782898783,
+              0.027299967394161295,
+              0.027638762273217373,
+              0.024595961891183068,
+              0.025509754206368362,
+              0.026892416842943356,
+              0.026669029114875065
+            ]
+          },
+          "per_entry_rms": {
+            "mean": [
+              0.0,
+              1.6562114074441705,
+              1.6518854837456018,
+              1.699980528634167,
+              1.2438629076697507,
+              1.4210974313050262,
+              1.3767298631615863,
+              1.3821738669746955,
+              1.3927528413197652,
+              1.389190453688597,
+              1.4001443457971483,
+              1.416892420798495,
+              1.4164165897962175,
+              1.4054000704126484,
+              1.4098710143111677,
+              1.3896620470144838,
+              1.3862598587515471,
+              1.429392905327439,
+              1.3987837341701703,
+              1.3908558317128155,
+              1.386107887651832,
+              1.4047054343669938,
+              1.4095005173540165,
+              1.413668456388037
+            ],
+            "std": [
+              0.0,
+              0.12564109925491737,
+              0.13498408989140323,
+              0.181639637118422,
+              0.04943331259372099,
+              0.13320865772425164,
+              0.07567936635022182,
+              0.08889605292770153,
+              0.09990734216252696,
+              0.08031855965012615,
+              0.09132874083056455,
+              0.10759454309388475,
+              0.08987067095877276,
+              0.09162641415582416,
+              0.0944511516327736,
+              0.08434484568427894,
+              0.10617259209473068,
+              0.10188526027042186,
+              0.09695213746987688,
+              0.09794942068989905,
+              0.08837414163807655,
+              0.09138954362764493,
+              0.0957620717748212,
+              0.09509587703379432
+            ],
+            "sem": [
+              0.0,
+              0.08884167327888415,
+              0.09544816531450571,
+              0.12843861913869992,
+              0.03495463055153447,
+              0.0941927451895761,
+              0.053513393142142866,
+              0.06285900184589599,
+              0.07064515913344747,
+              0.05679379818374041,
+              0.06457917195852092,
+              0.07608083104035411,
+              0.06354816086473314,
+              0.06478965878539034,
+              0.06678704981041306,
+              0.05964081234148654,
+              0.07507535984633729,
+              0.07204375844017162,
+              0.0685555138554803,
+              0.06926069958312153,
+              0.06248995483382435,
+              0.06462216602865155,
+              0.06771401033244895,
+              0.06724293951347803
+            ]
+          }
+        }
+      }
+    },
+    "3": {
+      "Qwen2.5-0.5B": {
+        "even": {
+          "x_axis": "num_clients",
+          "x_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "point_keys": [
+            "fig3|Qwen2.5-0.5B|even|N=1",
+            "fig3|Qwen2.5-0.5B|even|N=2",
+            "fig3|Qwen2.5-0.5B|even|N=3",
+            "fig3|Qwen2.5-0.5B|even|N=4",
+            "fig3|Qwen2.5-0.5B|even|N=5",
+            "fig3|Qwen2.5-0.5B|even|N=6",
+            "fig3|Qwen2.5-0.5B|even|N=7",
+            "fig3|Qwen2.5-0.5B|even|N=8"
+          ],
+          "status": [
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete",
+            "complete"
+          ],
+          "n": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "n_expected": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "absolute_frobenius": {
+            "mean": [
+              0.0,
+              1610.539794921875,
+              1860.150146484375,
+              2031.0025634765625,
+              2020.822265625,
+              2132.6036376953125,
+              2030.6356811523438,
+              2091.4257202148438
+            ],
+            "std": [
+              0.0,
+              10.537375687706463,
+              30.616377084143803,
+              4.924370345055241,
+              73.32365864600817,
+              26.68758408457265,
+              6.345402930342611,
+              64.48767233378608
+            ],
+            "sem": [
+              0.0,
+              7.451049804687499,
+              21.6490478515625,
+              3.4820556640624996,
+              51.84765625,
+              18.8709716796875,
+              4.48687744140625,
+              45.59967041015624
+            ]
+          },
+          "relative_frobenius": {
+            "mean": [
+              0.0,
+              0.6557297832051755,
+              0.7573380876649565,
+              0.8269300224570679,
+              0.8228712424556284,
+              0.8682735650648452,
+              0.8267790787115242,
+              0.8514660796405629
+            ],
+            "std": [
+              0.0,
+              0.0007422576343997891,
+              0.008367644838971722,
+              0.0024694135901531826,
+              0.034306162214623855,
+              0.00616778320771891,
+              0.0018900229897044047,
+              0.021649043537995655
+            ],
+            "sem": [
+              0.0,
+              0.000524855406671576,
+              0.005916818408197521,
+              0.001746139095151533,
+              0.024258119938446232,
+              0.004361281331066558,
+              0.0013364480726184567,
+              0.015308185491919533
+            ]
+          },
+          "per_entry_rms": {
+            "mean": [
+              0.0,
+              1.4579632697901235,
+              1.6838441042706354,
+              1.8386303129672439,
+              1.8297635548823208,
+              1.930511871835248,
+              1.8382918317786472,
+              1.8930650081761766
+            ],
+            "std": [
+              0.0,
+              0.0048433808959555385,
+              0.011104872844370192,
+              0.013679703136583784,
+              0.08442617779092058,
+              0.005115040808152302,
+              0.012389975943650766,
+              0.039702930189949526
+            ],
+            "sem": [
+              0.0,
+              0.0034247874753995373,
+              0.007852330892468506,
+              0.009673010852497277,
+              0.059698322825621035,
+              0.003616880041490411,
+              0.00876103600849365,
+              0.02807421117028941
+            ]
+          }
+        }
+      }
+    }
+  },
+  "points": [
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 1,
+      "config": "CenAttn",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=1",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0
+      },
+      "relative_frobenius": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0
+      },
+      "per_entry_rms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 2,
+      "config": "H2",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=2",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1339.3339233398438,
+        "std": 77.03657346445779,
+        "sem": 54.47308349609374
+      },
+      "relative_frobenius": {
+        "mean": 0.747094722150609,
+        "std": 0.05060736101527283,
+        "sem": 0.035784808151855134
+      },
+      "per_entry_rms": {
+        "mean": 1.6562114074441705,
+        "std": 0.12564109925491737,
+        "sem": 0.08884167327888415
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 3,
+      "config": "H3",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=3",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1335.7637329101562,
+        "std": 84.66162215054877,
+        "sem": 59.86480712890625
+      },
+      "relative_frobenius": {
+        "mean": 0.7451255894516544,
+        "std": 0.05483905473302967,
+        "sem": 0.038777067475585514
+      },
+      "per_entry_rms": {
+        "mean": 1.6518854837456018,
+        "std": 0.13498408989140323,
+        "sem": 0.09544816531450571
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 4,
+      "config": "H4",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=4",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1374.3370361328125,
+        "std": 121.70160513668496,
+        "sem": 86.0560302734375
+      },
+      "relative_frobenius": {
+        "mean": 0.7667416112254604,
+        "std": 0.07571453928741416,
+        "sem": 0.05353826416454582
+      },
+      "per_entry_rms": {
+        "mean": 1.699980528634167,
+        "std": 0.181639637118422,
+        "sem": 0.12843861913869992
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 5,
+      "config": "H5",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=5",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1006.2128601074219,
+        "std": 21.500249773589086,
+        "sem": 15.202972412109375
+      },
+      "relative_frobenius": {
+        "mean": 0.5611723857479101,
+        "std": 0.017735459742785502,
+        "sem": 0.01254086385158465
+      },
+      "per_entry_rms": {
+        "mean": 1.2438629076697507,
+        "std": 0.04943331259372099,
+        "sem": 0.03495463055153447
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 6,
+      "config": "H6",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=6",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1149.0145874023438,
+        "std": 86.65795584626196,
+        "sem": 61.27642822265624
+      },
+      "relative_frobenius": {
+        "mean": 0.6409912972642009,
+        "std": 0.05488588248142478,
+        "sem": 0.03881017969402339
+      },
+      "per_entry_rms": {
+        "mean": 1.4210974313050262,
+        "std": 0.13320865772425164,
+        "sem": 0.0941927451895761
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 7,
+      "config": "H7",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=7",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1113.53857421875,
+        "std": 40.76308318058436,
+        "sem": 28.8238525390625
+      },
+      "relative_frobenius": {
+        "mean": 0.6210771855109518,
+        "std": 0.02909018731254967,
+        "sem": 0.02056986871469074
+      },
+      "per_entry_rms": {
+        "mean": 1.3767298631615863,
+        "std": 0.07567936635022182,
+        "sem": 0.053513393142142866
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 8,
+      "config": "H8",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=8",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1117.8457641601562,
+        "std": 51.37753972224585,
+        "sem": 36.32940673828125
+      },
+      "relative_frobenius": {
+        "mean": 0.6235093811871333,
+        "std": 0.03503389695619047,
+        "sem": 0.024772706109113026
+      },
+      "per_entry_rms": {
+        "mean": 1.3821738669746955,
+        "std": 0.08889605292770153,
+        "sem": 0.06285900184589599
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 9,
+      "config": "H9",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=9",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1126.3247680664062,
+        "std": 60.13092090878489,
+        "sem": 42.51898193359375
+      },
+      "relative_frobenius": {
+        "mean": 0.628262660196208,
+        "std": 0.03996360750449439,
+        "sem": 0.028258537867105582
+      },
+      "per_entry_rms": {
+        "mean": 1.3927528413197652,
+        "std": 0.09990734216252696,
+        "sem": 0.07064515913344747
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 10,
+      "config": "H10",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=10",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1123.587646484375,
+        "std": 44.33193535037672,
+        "sem": 31.347412109375
+      },
+      "relative_frobenius": {
+        "mean": 0.6266912045355437,
+        "std": 0.031137729610549177,
+        "sem": 0.022017699758372478
+      },
+      "per_entry_rms": {
+        "mean": 1.389190453688597,
+        "std": 0.08031855965012615,
+        "sem": 0.05679379818374041
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 11,
+      "config": "H11",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=11",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1132.3700561523438,
+        "std": 53.07884278098448,
+        "sem": 37.53240966796875
+      },
+      "relative_frobenius": {
+        "mean": 0.6316136581970035,
+        "std": 0.03606556267373571,
+        "sem": 0.02550220393390695
+      },
+      "per_entry_rms": {
+        "mean": 1.4001443457971483,
+        "std": 0.09132874083056455,
+        "sem": 0.06457917195852092
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 12,
+      "config": "H12",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=12",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1145.80224609375,
+        "std": 65.99260479594275,
+        "sem": 46.66381835937499
+      },
+      "relative_frobenius": {
+        "mean": 0.6391409424705232,
+        "std": 0.04334357958369531,
+        "sem": 0.030648539044529743
+      },
+      "per_entry_rms": {
+        "mean": 1.416892420798495,
+        "std": 0.10759454309388475,
+        "sem": 0.07608083104035411
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 13,
+      "config": "H13",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=13",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1145.5490112304688,
+        "std": 51.656860711493856,
+        "sem": 36.52691650390625
+      },
+      "relative_frobenius": {
+        "mean": 0.6389587952221485,
+        "std": 0.035347857153880315,
+        "sem": 0.024994709493922185
+      },
+      "per_entry_rms": {
+        "mean": 1.4164165897962175,
+        "std": 0.08987067095877276,
+        "sem": 0.06354816086473314
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 14,
+      "config": "H14",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=14",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1136.6209716796875,
+        "std": 53.241549846723814,
+        "sem": 37.64746093749999
+      },
+      "relative_frobenius": {
+        "mean": 0.6339846305812895,
+        "std": 0.03618057030242316,
+        "sem": 0.02558352660804003
+      },
+      "per_entry_rms": {
+        "mean": 1.4054000704126484,
+        "std": 0.09162641415582416,
+        "sem": 0.06478965878539034
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 15,
+      "config": "H15",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=15",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1140.218017578125,
+        "std": 55.46092601345581,
+        "sem": 39.216796875
+      },
+      "relative_frobenius": {
+        "mean": 0.6359968471559418,
+        "std": 0.03743873820339093,
+        "sem": 0.026473185662685583
+      },
+      "per_entry_rms": {
+        "mean": 1.4098710143111677,
+        "std": 0.0944511516327736,
+        "sem": 0.06678704981041306
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 16,
+      "config": "H16",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=16",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1123.9393310546875,
+        "std": 47.58314189580793,
+        "sem": 33.64636230468749
+      },
+      "relative_frobenius": {
+        "mean": 0.6268966030935339,
+        "std": 0.032952761571781425,
+        "sem": 0.023301121166230118
+      },
+      "per_entry_rms": {
+        "mean": 1.3896620470144838,
+        "std": 0.08434484568427894,
+        "sem": 0.05964081234148654
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 17,
+      "config": "H17",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=17",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1121.0238037109375,
+        "std": 65.29758235916125,
+        "sem": 46.17236328125
+      },
+      "relative_frobenius": {
+        "mean": 0.6253213483745377,
+        "std": 0.04281450689675293,
+        "sem": 0.030274428159852203
+      },
+      "per_entry_rms": {
+        "mean": 1.3862598587515471,
+        "std": 0.10617259209473068,
+        "sem": 0.07507535984633729
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 18,
+      "config": "H18",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=18",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1155.9605712890625,
+        "std": 61.18648839256544,
+        "sem": 43.26538085937499
+      },
+      "relative_frobenius": {
+        "mean": 0.6447919736044371,
+        "std": 0.0407214745339888,
+        "sem": 0.028794430782898783
+      },
+      "per_entry_rms": {
+        "mean": 1.429392905327439,
+        "std": 0.10188526027042186,
+        "sem": 0.07204375844017162
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 19,
+      "config": "H19",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=19",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1131.2271728515625,
+        "std": 57.6497460521922,
+        "sem": 40.7645263671875
+      },
+      "relative_frobenius": {
+        "mean": 0.6309893843616678,
+        "std": 0.03860798414116619,
+        "sem": 0.027299967394161295
+      },
+      "per_entry_rms": {
+        "mean": 1.3987837341701703,
+        "std": 0.09695213746987688,
+        "sem": 0.0685555138554803
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 20,
+      "config": "H20",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=20",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1124.80419921875,
+        "std": 58.57471629965253,
+        "sem": 41.4185791015625
+      },
+      "relative_frobenius": {
+        "mean": 0.627410277114278,
+        "std": 0.039087112453989846,
+        "sem": 0.027638762273217373
+      },
+      "per_entry_rms": {
+        "mean": 1.3908558317128155,
+        "std": 0.09794942068989905,
+        "sem": 0.06926069958312153
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 21,
+      "config": "H21",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=21",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1121.033203125,
+        "std": 50.89666913167087,
+        "sem": 35.9893798828125
+      },
+      "relative_frobenius": {
+        "mean": 0.6252854721179382,
+        "std": 0.034783942886122896,
+        "sem": 0.024595961891183068
+      },
+      "per_entry_rms": {
+        "mean": 1.386107887651832,
+        "std": 0.08837414163807655,
+        "sem": 0.06248995483382435
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 22,
+      "config": "H22",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=22",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1136.0606079101562,
+        "std": 53.060198363902416,
+        "sem": 37.51922607421875
+      },
+      "relative_frobenius": {
+        "mean": 0.6336716279333459,
+        "std": 0.03607624037145025,
+        "sem": 0.025509754206368362
+      },
+      "per_entry_rms": {
+        "mean": 1.4047054343669938,
+        "std": 0.09138954362764493,
+        "sem": 0.06462216602865155
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 23,
+      "config": "H23",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=23",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1139.908447265625,
+        "std": 56.52728309045515,
+        "sem": 39.97082519531249
+      },
+      "relative_frobenius": {
+        "mean": 0.6358272610662088,
+        "std": 0.03803162062428115,
+        "sem": 0.026892416842943356
+      },
+      "per_entry_rms": {
+        "mean": 1.4095005173540165,
+        "std": 0.0957620717748212,
+        "sem": 0.06771401033244895
+      }
+    },
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "x_value": 24,
+      "config": "H24",
+      "point_key": "fig2|Qwen2.5-0.5B|even|H=24",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1143.2862548828125,
+        "std": 55.92617327304999,
+        "sem": 39.5457763671875
+      },
+      "relative_frobenius": {
+        "mean": 0.6377091670844997,
+        "std": 0.03771570266957926,
+        "sem": 0.026669029114875065
+      },
+      "per_entry_rms": {
+        "mean": 1.413668456388037,
+        "std": 0.09509587703379432,
+        "sem": 0.06724293951347803
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 1,
+      "config": "CenAttn",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=1",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0
+      },
+      "relative_frobenius": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0
+      },
+      "per_entry_rms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 2,
+      "config": "N2",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=2",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1610.539794921875,
+        "std": 10.537375687706463,
+        "sem": 7.451049804687499
+      },
+      "relative_frobenius": {
+        "mean": 0.6557297832051755,
+        "std": 0.0007422576343997891,
+        "sem": 0.000524855406671576
+      },
+      "per_entry_rms": {
+        "mean": 1.4579632697901235,
+        "std": 0.0048433808959555385,
+        "sem": 0.0034247874753995373
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 3,
+      "config": "N3",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=3",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 1860.150146484375,
+        "std": 30.616377084143803,
+        "sem": 21.6490478515625
+      },
+      "relative_frobenius": {
+        "mean": 0.7573380876649565,
+        "std": 0.008367644838971722,
+        "sem": 0.005916818408197521
+      },
+      "per_entry_rms": {
+        "mean": 1.6838441042706354,
+        "std": 0.011104872844370192,
+        "sem": 0.007852330892468506
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 4,
+      "config": "N4",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=4",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 2031.0025634765625,
+        "std": 4.924370345055241,
+        "sem": 3.4820556640624996
+      },
+      "relative_frobenius": {
+        "mean": 0.8269300224570679,
+        "std": 0.0024694135901531826,
+        "sem": 0.001746139095151533
+      },
+      "per_entry_rms": {
+        "mean": 1.8386303129672439,
+        "std": 0.013679703136583784,
+        "sem": 0.009673010852497277
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 5,
+      "config": "N5",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=5",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 2020.822265625,
+        "std": 73.32365864600817,
+        "sem": 51.84765625
+      },
+      "relative_frobenius": {
+        "mean": 0.8228712424556284,
+        "std": 0.034306162214623855,
+        "sem": 0.024258119938446232
+      },
+      "per_entry_rms": {
+        "mean": 1.8297635548823208,
+        "std": 0.08442617779092058,
+        "sem": 0.059698322825621035
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 6,
+      "config": "N6",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=6",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 2132.6036376953125,
+        "std": 26.68758408457265,
+        "sem": 18.8709716796875
+      },
+      "relative_frobenius": {
+        "mean": 0.8682735650648452,
+        "std": 0.00616778320771891,
+        "sem": 0.004361281331066558
+      },
+      "per_entry_rms": {
+        "mean": 1.930511871835248,
+        "std": 0.005115040808152302,
+        "sem": 0.003616880041490411
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 7,
+      "config": "N7",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=7",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 2030.6356811523438,
+        "std": 6.345402930342611,
+        "sem": 4.48687744140625
+      },
+      "relative_frobenius": {
+        "mean": 0.8267790787115242,
+        "std": 0.0018900229897044047,
+        "sem": 0.0013364480726184567
+      },
+      "per_entry_rms": {
+        "mean": 1.8382918317786472,
+        "std": 0.012389975943650766,
+        "sem": 0.00876103600849365
+      }
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "x_value": 8,
+      "config": "N8",
+      "point_key": "fig3|Qwen2.5-0.5B|even|N=8",
+      "status": "complete",
+      "n": 2,
+      "n_expected": 2,
+      "missing_sample_indices": [],
+      "absolute_frobenius": {
+        "mean": 2091.4257202148438,
+        "std": 64.48767233378608,
+        "sem": 45.59967041015624
+      },
+      "relative_frobenius": {
+        "mean": 0.8514660796405629,
+        "std": 0.021649043537995655,
+        "sem": 0.015308185491919533
+      },
+      "per_entry_rms": {
+        "mean": 1.8930650081761766,
+        "std": 0.039702930189949526,
+        "sem": 0.02807421117028941
+      }
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "7e720a1635bd0e160327cca897bf8e4134417cf30deb8a1818f1c5d208d61a45",
+      "input_file": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig2_Qwen2.5-0.5B_even_probe.jsonl",
+      "started": true,
+      "points": [
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=1",
+          "x_value": 1,
+          "config": "CenAttn",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=2",
+          "x_value": 2,
+          "config": "H2",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=3",
+          "x_value": 3,
+          "config": "H3",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=4",
+          "x_value": 4,
+          "config": "H4",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=5",
+          "x_value": 5,
+          "config": "H5",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=6",
+          "x_value": 6,
+          "config": "H6",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=7",
+          "x_value": 7,
+          "config": "H7",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=8",
+          "x_value": 8,
+          "config": "H8",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=9",
+          "x_value": 9,
+          "config": "H9",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=10",
+          "x_value": 10,
+          "config": "H10",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=11",
+          "x_value": 11,
+          "config": "H11",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=12",
+          "x_value": 12,
+          "config": "H12",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=13",
+          "x_value": 13,
+          "config": "H13",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=14",
+          "x_value": 14,
+          "config": "H14",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=15",
+          "x_value": 15,
+          "config": "H15",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=16",
+          "x_value": 16,
+          "config": "H16",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=17",
+          "x_value": 17,
+          "config": "H17",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=18",
+          "x_value": 18,
+          "config": "H18",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=19",
+          "x_value": 19,
+          "config": "H19",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=20",
+          "x_value": 20,
+          "config": "H20",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=21",
+          "x_value": 21,
+          "config": "H21",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=22",
+          "x_value": 22,
+          "config": "H22",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=23",
+          "x_value": 23,
+          "config": "H23",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=24",
+          "x_value": 24,
+          "config": "H24",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        }
+      ]
+    },
+    {
+      "run_id": "708d86b02b9419e9376b9df9044fe301a70c0a26d977aec9560c3e9ac1878ad8",
+      "input_file": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig3_Qwen2.5-0.5B_even_probe.jsonl",
+      "started": true,
+      "points": [
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=1",
+          "x_value": 1,
+          "config": "CenAttn",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=2",
+          "x_value": 2,
+          "config": "N2",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=3",
+          "x_value": 3,
+          "config": "N3",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=4",
+          "x_value": 4,
+          "config": "N4",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=5",
+          "x_value": 5,
+          "config": "N5",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=6",
+          "x_value": 6,
+          "config": "N6",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=7",
+          "x_value": 7,
+          "config": "N7",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        },
+        {
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=8",
+          "x_value": 8,
+          "config": "N8",
+          "status": "complete",
+          "n": 2,
+          "n_expected": 2,
+          "missing_sample_indices": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "manifest": {
+    "schema_version": 2,
+    "source_repo": "/home/xiumei/eval_server_212",
+    "model_path": "Qwen/Qwen2.5-0.5B",
+    "model": "Qwen2.5-0.5B",
+    "num_layers": 24,
+    "figure": 3,
+    "split_way": "even",
+    "data_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/shared_gsm8k_test.jsonl",
+    "sample_plan_json": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/sample_plan.json",
+    "output_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig3_Qwen2.5-0.5B_even_probe.jsonl",
+    "device": "cuda:0",
+    "dtype": "float32",
+    "seed": 0,
+    "hyperparams": {
+      "num_shots": 8,
+      "num_clients": 4,
+      "num_local_forward": 4,
+      "max_new_tokens": 256,
+      "do_sample": false
+    },
+    "configs": [
+      {
+        "name": "N2",
+        "comm_policy": "main",
+        "num_clients": 2,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c2_even.json"
+      },
+      {
+        "name": "N3",
+        "comm_policy": "main",
+        "num_clients": 3,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c3_even.json"
+      },
+      {
+        "name": "N4",
+        "comm_policy": "main",
+        "num_clients": 4,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c4_even.json"
+      },
+      {
+        "name": "N5",
+        "comm_policy": "main",
+        "num_clients": 5,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c5_even.json"
+      },
+      {
+        "name": "N6",
+        "comm_policy": "main",
+        "num_clients": 6,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c6_even.json"
+      },
+      {
+        "name": "N7",
+        "comm_policy": "main",
+        "num_clients": 7,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c7_even.json"
+      },
+      {
+        "name": "N8",
+        "comm_policy": "main",
+        "num_clients": 8,
+        "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c8_even.json"
+      }
+    ],
+    "mechanism_layers": [],
+    "grid_source": {
+      "kind": "explicit_settings",
+      "note": "Declared measurement grid; may include extra points beyond the original plot"
+    }
+  },
+  "provenance": {
+    "schema_version": 2,
+    "dataset_size": 1319,
+    "dataset_questions_sha256": "65ae5a5b62654eafdde08f5e2adbf6d2cec66052a60b196aa354d9ea8fe4b9bd",
+    "sample_indices": [
+      0,
+      1
+    ],
+    "sample_questions": [
+      {
+        "sample_index": 0,
+        "question_sha256": "8fe80ff6511f912e726440b9af2eeb0f36fc9aa069438db8af63d2e29b594d7f",
+        "answer_sha256": "98bcfd36cb29ac917208b4057c38a39b965846219f7e84284c5245f3b2a09201"
+      },
+      {
+        "sample_index": 1,
+        "question_sha256": "f6929c316cd0f049ffd5a67473fc4e14ebc469c0f2f453dd06c09074052b5de7",
+        "answer_sha256": "fbc337c967af2cf37befb6cd7b036d26afba8887709296e1e83ad3f2db1633d7"
+      }
+    ],
+    "sample_set_sha256": "e149062e2fa278a4f8835efecbcb6ccc05aca67c027c1bb0d46f4cbfb0903b0a",
+    "n_expected_samples": 2,
+    "manifest_sha256": "ac838d4db5488e98ca4c8627bf94e21bacfd916cfbe948263f31d9364c04ddc6",
+    "data_sha256": "752adc99f23132275139f1f7be57126b08735a55daf0c56859ee6df70abafbac",
+    "source_hashes": {
+      "utils.py": "bf35ddf6339631c991279d19268ada39a20a0555db4059f2507f575e967eaa2c",
+      "Wrapper.py": "7c9bbe7c8ac15c8d3fb996193f15af1b91fa0f8564eb0787d52b5bea2a46fb1f",
+      "evaluate_gsm8k/main_evaluate_gsm8k.py": "8e5bbdf70ef512e4ea906dd4d35e4c1e1dbb3ebcd2c073634ae91471382ad00e"
+    },
+    "probe_script_sha256": "5877086722431b8237b13581ca34a737c675d7b6ec4a36adcbd38376b1dba786",
+    "fewshot_prompt_sha256": "7003b7158bee376fed000251fc91c1364a12be89fc7de235fa8c35c8c7190bf0",
+    "model_path": "/home/xiumei/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B/snapshots/060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "checkpoint_files": [
+      [
+        "model.safetensors",
+        988097824,
+        1752986327737196171
+      ],
+      [
+        "config.json",
+        681,
+        1752986273180109890
+      ],
+      [
+        "tokenizer.json",
+        7031645,
+        1752986272064087253
+      ],
+      [
+        "tokenizer_config.json",
+        7228,
+        1752986270588057287
+      ],
+      [
+        "vocab.json",
+        2776833,
+        1752986271312071989
+      ],
+      [
+        "merges.txt",
+        1671839,
+        1752986271684079542
+      ]
+    ],
+    "torch_version": "2.5.1+cu121",
+    "transformers_version": "4.53.2",
+    "dtype": "torch.float32",
+    "device": "cuda:0",
+    "planned_points": [
+      {
+        "config": "CenAttn",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 1,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=1"
+      },
+      {
+        "config": "N2",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 2,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=2"
+      },
+      {
+        "config": "N3",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 3,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=3"
+      },
+      {
+        "config": "N4",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 4,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=4"
+      },
+      {
+        "config": "N5",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 5,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=5"
+      },
+      {
+        "config": "N6",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 6,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=6"
+      },
+      {
+        "config": "N7",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 7,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=7"
+      },
+      {
+        "config": "N8",
+        "figure": 3,
+        "model": "Qwen2.5-0.5B",
+        "split_way": "even",
+        "x_axis": "num_clients",
+        "x_value": 8,
+        "point_key": "fig3|Qwen2.5-0.5B|even|N=8"
+      }
+    ],
+    "generated_utility": false,
+    "generate_clients": "publisher",
+    "token_chunks_file_hashes": {
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c2_even.json": "239105a665152a14ac376ae1086109e65fceb377059f7ce114ea5e1b288e69c9",
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c3_even.json": "622336d743bef25fda7e3ddba7ec15d1cdaf96aa67cefd8a7da0d73ee72e4e4d",
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c4_even.json": "de8c4dbb8c8b68ad89da875dec1e1759d8b630cac89da339f757d027c5225207",
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c5_even.json": "553bd5ead6997e81515e37f05871429fa0d9505a67e20ae8a91c2eb481e10e65",
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c6_even.json": "e05708eada5c6cb5300034c8fe8c67ba17c3e51e18a042a395ecdde0860295f9",
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c7_even.json": "55b9c6a6765e01936a471ed70dd76aa40655ec18c9b174158ed564c6b1536ab6",
+      "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c8_even.json": "c34addf9da25b37e137e048636b5c4a3e9b8edd0943bd6c3ac704c040bca661d"
+    },
+    "figure": 3,
+    "model": "Qwen2.5-0.5B",
+    "split_way": "even",
+    "x_axis": "num_clients",
+    "reference_implementation": "N=common num_clients, H=1 full causal attention; central plot x=1",
+    "limitations": "Prefill fidelity excludes generated trajectories. Sparse masks, if requested, are newly seeded.",
+    "run_id": "708d86b02b9419e9376b9df9044fe301a70c0a26d977aec9560c3e9ac1878ad8"
+  }
+}

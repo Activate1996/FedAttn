@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "source_repo": "/home/xiumei/eval_server_212",
+  "model_path": "Qwen/Qwen2.5-0.5B",
+  "model": "Qwen2.5-0.5B",
+  "num_layers": 24,
+  "figure": 2,
+  "split_way": "even",
+  "data_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/shared_gsm8k_test.jsonl",
+  "sample_plan_json": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/sample_plan.json",
+  "output_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig2_Qwen2.5-0.5B_even_probe.jsonl",
+  "device": "cuda:0",
+  "dtype": "float32",
+  "seed": 0,
+  "hyperparams": {
+    "num_shots": 4,
+    "num_clients": 4,
+    "num_local_forward": 4,
+    "max_new_tokens": 256,
+    "do_sample": false
+  },
+  "configs": [
+    {
+      "name": "H2",
+      "comm_policy": "main",
+      "num_local_forward": 2,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H3",
+      "comm_policy": "main",
+      "num_local_forward": 3,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H4",
+      "comm_policy": "main",
+      "num_local_forward": 4,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H5",
+      "comm_policy": "main",
+      "num_local_forward": 5,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H6",
+      "comm_policy": "main",
+      "num_local_forward": 6,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H7",
+      "comm_policy": "main",
+      "num_local_forward": 7,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H8",
+      "comm_policy": "main",
+      "num_local_forward": 8,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H9",
+      "comm_policy": "main",
+      "num_local_forward": 9,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H10",
+      "comm_policy": "main",
+      "num_local_forward": 10,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H11",
+      "comm_policy": "main",
+      "num_local_forward": 11,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H12",
+      "comm_policy": "main",
+      "num_local_forward": 12,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H13",
+      "comm_policy": "main",
+      "num_local_forward": 13,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H14",
+      "comm_policy": "main",
+      "num_local_forward": 14,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H15",
+      "comm_policy": "main",
+      "num_local_forward": 15,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H16",
+      "comm_policy": "main",
+      "num_local_forward": 16,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H17",
+      "comm_policy": "main",
+      "num_local_forward": 17,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H18",
+      "comm_policy": "main",
+      "num_local_forward": 18,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H19",
+      "comm_policy": "main",
+      "num_local_forward": 19,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H20",
+      "comm_policy": "main",
+      "num_local_forward": 20,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H21",
+      "comm_policy": "main",
+      "num_local_forward": 21,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H22",
+      "comm_policy": "main",
+      "num_local_forward": 22,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H23",
+      "comm_policy": "main",
+      "num_local_forward": 23,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    },
+    {
+      "name": "H24",
+      "comm_policy": "main",
+      "num_local_forward": 24,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot4_c4_even.json"
+    }
+  ],
+  "mechanism_layers": [],
+  "grid_source": {
+    "kind": "explicit_settings",
+    "note": "Declared measurement grid; may include extra points beyond the original plot"
+  }
+}

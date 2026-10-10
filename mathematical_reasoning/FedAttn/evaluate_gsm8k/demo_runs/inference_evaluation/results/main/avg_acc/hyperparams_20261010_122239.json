@@ -1,0 +1,9 @@
+{
+    "checkpoint_path": "Qwen/Qwen2.5-0.5B",
+    "num_clients": 4,
+    "num_local_forward": 2,
+    "do_sample": false,
+    "max_new_tokens": 256,
+    "num_shots": 4,
+    "split_way": "even"
+}

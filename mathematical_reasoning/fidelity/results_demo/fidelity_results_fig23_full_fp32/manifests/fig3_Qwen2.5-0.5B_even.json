@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "source_repo": "/home/xiumei/eval_server_212",
+  "model_path": "Qwen/Qwen2.5-0.5B",
+  "model": "Qwen2.5-0.5B",
+  "num_layers": 24,
+  "figure": 3,
+  "split_way": "even",
+  "data_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/shared_gsm8k_test.jsonl",
+  "sample_plan_json": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/sample_plan.json",
+  "output_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig3_Qwen2.5-0.5B_even_probe.jsonl",
+  "device": "cuda:0",
+  "dtype": "float32",
+  "seed": 0,
+  "hyperparams": {
+    "num_shots": 8,
+    "num_clients": 4,
+    "num_local_forward": 4,
+    "max_new_tokens": 256,
+    "do_sample": false
+  },
+  "configs": [
+    {
+      "name": "N2",
+      "comm_policy": "main",
+      "num_clients": 2,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c2_even.json"
+    },
+    {
+      "name": "N3",
+      "comm_policy": "main",
+      "num_clients": 3,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c3_even.json"
+    },
+    {
+      "name": "N4",
+      "comm_policy": "main",
+      "num_clients": 4,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c4_even.json"
+    },
+    {
+      "name": "N5",
+      "comm_policy": "main",
+      "num_clients": 5,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c5_even.json"
+    },
+    {
+      "name": "N6",
+      "comm_policy": "main",
+      "num_clients": 6,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c6_even.json"
+    },
+    {
+      "name": "N7",
+      "comm_policy": "main",
+      "num_clients": 7,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c7_even.json"
+    },
+    {
+      "name": "N8",
+      "comm_policy": "main",
+      "num_clients": 8,
+      "token_chunks_json": "/home/xiumei/eval_server_212/evaluate_gsm8k/data_process_token_chunks/data_process_Qwen2.5-0.5B_shot8_c8_even.json"
+    }
+  ],
+  "mechanism_layers": [],
+  "grid_source": {
+    "kind": "explicit_settings",
+    "note": "Declared measurement grid; may include extra points beyond the original plot"
+  }
+}

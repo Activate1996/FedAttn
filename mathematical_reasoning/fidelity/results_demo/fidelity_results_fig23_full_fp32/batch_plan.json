@@ -1,0 +1,337 @@
+{
+  "schema_version": 2,
+  "sample_plan": {
+    "schema_version": 2,
+    "dataset_size": 1319,
+    "dataset_questions_sha256": "65ae5a5b62654eafdde08f5e2adbf6d2cec66052a60b196aa354d9ea8fe4b9bd",
+    "sample_indices": [
+      0,
+      1
+    ],
+    "sample_questions": [
+      {
+        "sample_index": 0,
+        "question_sha256": "8fe80ff6511f912e726440b9af2eeb0f36fc9aa069438db8af63d2e29b594d7f",
+        "answer_sha256": "98bcfd36cb29ac917208b4057c38a39b965846219f7e84284c5245f3b2a09201"
+      },
+      {
+        "sample_index": 1,
+        "question_sha256": "f6929c316cd0f049ffd5a67473fc4e14ebc469c0f2f453dd06c09074052b5de7",
+        "answer_sha256": "fbc337c967af2cf37befb6cd7b036d26afba8887709296e1e83ad3f2db1633d7"
+      }
+    ],
+    "sample_set_sha256": "e149062e2fa278a4f8835efecbcb6ccc05aca67c027c1bb0d46f4cbfb0903b0a",
+    "n_expected_samples": 2
+  },
+  "sample_plan_json": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/sample_plan.json",
+  "panels": [
+    {
+      "figure": 2,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_local_forwards",
+      "planned_points": [
+        {
+          "config": "CenAttn",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 1,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=1"
+        },
+        {
+          "config": "H2",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 2,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=2"
+        },
+        {
+          "config": "H3",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 3,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=3"
+        },
+        {
+          "config": "H4",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 4,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=4"
+        },
+        {
+          "config": "H5",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 5,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=5"
+        },
+        {
+          "config": "H6",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 6,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=6"
+        },
+        {
+          "config": "H7",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 7,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=7"
+        },
+        {
+          "config": "H8",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 8,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=8"
+        },
+        {
+          "config": "H9",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 9,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=9"
+        },
+        {
+          "config": "H10",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 10,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=10"
+        },
+        {
+          "config": "H11",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 11,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=11"
+        },
+        {
+          "config": "H12",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 12,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=12"
+        },
+        {
+          "config": "H13",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 13,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=13"
+        },
+        {
+          "config": "H14",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 14,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=14"
+        },
+        {
+          "config": "H15",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 15,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=15"
+        },
+        {
+          "config": "H16",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 16,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=16"
+        },
+        {
+          "config": "H17",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 17,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=17"
+        },
+        {
+          "config": "H18",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 18,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=18"
+        },
+        {
+          "config": "H19",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 19,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=19"
+        },
+        {
+          "config": "H20",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 20,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=20"
+        },
+        {
+          "config": "H21",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 21,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=21"
+        },
+        {
+          "config": "H22",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 22,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=22"
+        },
+        {
+          "config": "H23",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 23,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=23"
+        },
+        {
+          "config": "H24",
+          "figure": 2,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_local_forwards",
+          "x_value": 24,
+          "point_key": "fig2|Qwen2.5-0.5B|even|H=24"
+        }
+      ],
+      "output_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig2_Qwen2.5-0.5B_even_probe.jsonl",
+      "manifest_path": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/manifests/fig2_Qwen2.5-0.5B_even.json"
+    },
+    {
+      "figure": 3,
+      "model": "Qwen2.5-0.5B",
+      "split_way": "even",
+      "x_axis": "num_clients",
+      "planned_points": [
+        {
+          "config": "CenAttn",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 1,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=1"
+        },
+        {
+          "config": "N2",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 2,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=2"
+        },
+        {
+          "config": "N3",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 3,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=3"
+        },
+        {
+          "config": "N4",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 4,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=4"
+        },
+        {
+          "config": "N5",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 5,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=5"
+        },
+        {
+          "config": "N6",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 6,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=6"
+        },
+        {
+          "config": "N7",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 7,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=7"
+        },
+        {
+          "config": "N8",
+          "figure": 3,
+          "model": "Qwen2.5-0.5B",
+          "split_way": "even",
+          "x_axis": "num_clients",
+          "x_value": 8,
+          "point_key": "fig3|Qwen2.5-0.5B|even|N=8"
+        }
+      ],
+      "output_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig3_Qwen2.5-0.5B_even_probe.jsonl",
+      "manifest_path": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/manifests/fig3_Qwen2.5-0.5B_even.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "output_jsonl": "/home/xiumei/eval_server_212/fidelity_PNAS_demo/results_demo/fidelity_results_fig23_full_fp32/fig3_Qwen2.5-0.5B_even_probe.jsonl",
+  "n_expected_records": 16,
+  "n_saved_records": 16,
+  "new_records": 16,
+  "complete": true,
+  "sample_indices": [
+    0,
+    1
+  ],
+  "sample_set_sha256": "e149062e2fa278a4f8835efecbcb6ccc05aca67c027c1bb0d46f4cbfb0903b0a"
+}
